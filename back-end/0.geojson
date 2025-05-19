@@ -1,0 +1,2427 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.978347,
+                    31.985386
+                ]
+            },
+            "properties": {
+                "name": "新桥国际机场",
+                "id": "67debe346d0e217f56ba10b1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.593047,
+                    24.794712
+                ]
+            },
+            "properties": {
+                "name": "泉州晋江国际机场",
+                "id": "67debe346d0e217f56ba10b2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.025601,
+                    23.736758
+                ]
+            },
+            "properties": {
+                "name": "临沧机场",
+                "id": "67debe346d0e217f56ba10b3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.961777,
+                    25.082489
+                ]
+            },
+            "properties": {
+                "name": "兴义万峰林机场",
+                "id": "67debe346d0e217f56ba10b4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.440733,
+                    31.044103
+                ]
+            },
+            "properties": {
+                "name": "金垭机场",
+                "id": "67debe346d0e217f56ba10b5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.099704,
+                    43.426714
+                ]
+            },
+            "properties": {
+                "name": "二连浩特赛乌素机场",
+                "id": "67debe346d0e217f56ba10b6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.805293,
+                    29.474773
+                ]
+            },
+            "properties": {
+                "name": "庐山机场",
+                "id": "67debe346d0e217f56ba10b7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.665967,
+                    42.842538
+                ]
+            },
+            "properties": {
+                "name": "哈密机场",
+                "id": "67debe346d0e217f56ba10b8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.340497,
+                    39.860136
+                ]
+            },
+            "properties": {
+                "name": "嘉峪关酒泉机场",
+                "id": "67debe346d0e217f56ba10b9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.643644,
+                    28.916308
+                ]
+            },
+            "properties": {
+                "name": "桃花源机场",
+                "id": "67debe346d0e217f56ba10ba"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.047523,
+                    31.506852
+                ]
+            },
+            "properties": {
+                "name": "阆中古城机场",
+                "id": "67debe346d0e217f56ba10bb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.471636,
+                    29.025707
+                ]
+            },
+            "properties": {
+                "name": "云龙机场",
+                "id": "67debe346d0e217f56ba10bc"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.605077,
+                    23.046998
+                ]
+            },
+            "properties": {
+                "name": "平潭机场",
+                "id": "67debe346d0e217f56ba10bd"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.439915,
+                    27.959119
+                ]
+            },
+            "properties": {
+                "name": "茅台机场",
+                "id": "67debe346d0e217f56ba10be"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.336848,
+                    29.301581
+                ]
+            },
+            "properties": {
+                "name": "米林机场",
+                "id": "67debe346d0e217f56ba10bf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.722642,
+                    32.563345
+                ]
+            },
+            "properties": {
+                "name": "扬州泰州机场",
+                "id": "67debe346d0e217f56ba10c0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.044612,
+                    30.338162
+                ]
+            },
+            "properties": {
+                "name": "花湖机场",
+                "id": "67debe346d0e217f56ba10c1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.768912,
+                    34.442341
+                ]
+            },
+            "properties": {
+                "name": "咸阳国际机场",
+                "id": "67debe346d0e217f56ba10c2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.599477,
+                    38.359264
+                ]
+            },
+            "properties": {
+                "name": "榆阳机场",
+                "id": "67debe346d0e217f56ba10c3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.047569,
+                    25.216995
+                ]
+            },
+            "properties": {
+                "name": "两江国际机场",
+                "id": "67debe346d0e217f56ba10c4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.826401,
+                    40.853491
+                ]
+            },
+            "properties": {
+                "name": "白塔国际机场",
+                "id": "67debe346d0e217f56ba10c5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.830312,
+                    49.209297
+                ]
+            },
+            "properties": {
+                "name": "海拉尔机场",
+                "id": "67debe346d0e217f56ba10c6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.02606,
+                    45.507995
+                ]
+            },
+            "properties": {
+                "name": "长安机场",
+                "id": "67debe346d0e217f56ba10c7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.850538,
+                    25.749444
+                ]
+            },
+            "properties": {
+                "name": "郴州北湖机场",
+                "id": "67debe346d0e217f56ba10c8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.805016,
+                    39.794383
+                ]
+            },
+            "properties": {
+                "name": "乌海机场",
+                "id": "67debe346d0e217f56ba10c9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.316649,
+                    50.174617
+                ]
+            },
+            "properties": {
+                "name": "黑河机场",
+                "id": "67debe346d0e217f56ba10ca"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.604647,
+                    35.802427
+                ]
+            },
+            "properties": {
+                "name": "庆阳机场",
+                "id": "67debe346d0e217f56ba10cb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.075983,
+                    23.080913
+                ]
+            },
+            "properties": {
+                "name": "沙堤机场",
+                "id": "67debe346d0e217f56ba10cc"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.757674,
+                    27.323525
+                ]
+            },
+            "properties": {
+                "name": "昭通机场",
+                "id": "67debe346d0e217f56ba10cd"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.320952,
+                    25.646965
+                ]
+            },
+            "properties": {
+                "name": "凤仪机场",
+                "id": "67debe346d0e217f56ba10ce"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.699493,
+                    32.388663
+                ]
+            },
+            "properties": {
+                "name": "盘龙机场",
+                "id": "67debe346d0e217f56ba10cf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    90.907599,
+                    29.294506
+                ]
+            },
+            "properties": {
+                "name": "贡嘎国际机场",
+                "id": "67debe346d0e217f56ba10d0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.181667,
+                    29.336076
+                ]
+            },
+            "properties": {
+                "name": "景德镇机场",
+                "id": "67debe346d0e217f56ba10d1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.773217,
+                    47.869
+                ]
+            },
+            "properties": {
+                "name": "成吉思汗机场",
+                "id": "67debe346d0e217f56ba10d2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.671853,
+                    38.80508
+                ]
+            },
+            "properties": {
+                "name": "甘州机场",
+                "id": "67debe346d0e217f56ba10d3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.860811,
+                    41.106214
+                ]
+            },
+            "properties": {
+                "name": "腾鳌机场",
+                "id": "67debe346d0e217f56ba10d4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.489727,
+                    30.318935
+                ]
+            },
+            "properties": {
+                "name": "许家坪机场",
+                "id": "67debe346d0e217f56ba10d5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.743282,
+                    31.428364
+                ]
+            },
+            "properties": {
+                "name": "南郊机场",
+                "id": "67debe346d0e217f56ba10d6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.261074,
+                    29.730415
+                ]
+            },
+            "properties": {
+                "name": "屯溪国际机场",
+                "id": "67debe346d0e217f56ba10d7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.648103,
+                    31.736611
+                ]
+            },
+            "properties": {
+                "name": "恩阳机场",
+                "id": "67debe346d0e217f56ba10d8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.29612,
+                    21.536506
+                ]
+            },
+            "properties": {
+                "name": "北海福成机场",
+                "id": "67debe346d0e217f56ba10d9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.209649,
+                    33.428662
+                ]
+            },
+            "properties": {
+                "name": "南洋机场",
+                "id": "67debe346d0e217f56ba10da"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.913024,
+                    32.588998
+                ]
+            },
+            "properties": {
+                "name": "武当山机场 ",
+                "id": "67debe346d0e217f56ba10db"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.124841,
+                    22.431498
+                ]
+            },
+            "properties": {
+                "name": "玉林福绵机场",
+                "id": "67debe346d0e217f56ba10dc"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.037297,
+                    32.834909
+                ]
+            },
+            "properties": {
+                "name": "玉树巴塘机场",
+                "id": "67debe346d0e217f56ba10dd"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.453106,
+                    30.290368
+                ]
+            },
+            "properties": {
+                "name": "沙市机场",
+                "id": "67debe346d0e217f56ba10de"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.186732,
+                    27.98366
+                ]
+            },
+            "properties": {
+                "name": "青山机场",
+                "id": "67debe346d0e217f56ba10df"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.2062,
+                    43.559157
+                ]
+            },
+            "properties": {
+                "name": "通辽机场",
+                "id": "67debe346d0e217f56ba10e0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.221947,
+                    36.078552
+                ]
+            },
+            "properties": {
+                "name": "六盘山机场",
+                "id": "67debe346d0e217f56ba10e1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    125.142936,
+                    46.752023
+                ]
+            },
+            "properties": {
+                "name": "萨尔图机场",
+                "id": "67debe346d0e217f56ba10e2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.13709,
+                    24.539495
+                ]
+            },
+            "properties": {
+                "name": "高崎国际机场",
+                "id": "67debe346d0e217f56ba10e3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.633554,
+                    36.515199
+                ]
+            },
+            "properties": {
+                "name": "中川机场",
+                "id": "67debe346d0e217f56ba10e4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.867472,
+                    39.49571
+                ]
+            },
+            "properties": {
+                "name": "伊金霍洛机场",
+                "id": "67debe346d0e217f56ba10e5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    124.558024,
+                    44.934141
+                ]
+            },
+            "properties": {
+                "name": "查干湖机场",
+                "id": "67debe346d0e217f56ba10e6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.805223,
+                    26.537812
+                ]
+            },
+            "properties": {
+                "name": "龙洞堡国际机场",
+                "id": "67debe346d0e217f56ba10e7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.866726,
+                    37.032102
+                ]
+            },
+            "properties": {
+                "name": "昆冈机场",
+                "id": "67debe346d0e217f56ba10e8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.432826,
+                    28.559605
+                ]
+            },
+            "properties": {
+                "name": "路桥机场",
+                "id": "67debe346d0e217f56ba10e9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.78746,
+                    31.914019
+                ]
+            },
+            "properties": {
+                "name": "奔牛机场",
+                "id": "67debe346d0e217f56ba10ea"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.131795,
+                    36.247418
+                ]
+            },
+            "properties": {
+                "name": "长治机场",
+                "id": "67debe346d0e217f56ba10eb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.414693,
+                    18.303395
+                ]
+            },
+            "properties": {
+                "name": "凤凰机场",
+                "id": "67debe346d0e217f56ba10ec"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.700248,
+                    29.463028
+                ]
+            },
+            "properties": {
+                "name": "重庆仙女山机场",
+                "id": "67debe346d0e217f56ba10ed"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.674042,
+                    25.928896
+                ]
+            },
+            "properties": {
+                "name": "长乐国际机场",
+                "id": "67debe346d0e217f56ba10ee"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.035372,
+                    29.340003
+                ]
+            },
+            "properties": {
+                "name": "义乌机场",
+                "id": "67debe346d0e217f56ba10ef"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    124.289926,
+                    40.026548
+                ]
+            },
+            "properties": {
+                "name": "浪头机场",
+                "id": "67debe346d0e217f56ba10f0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.328079,
+                    23.556375
+                ]
+            },
+            "properties": {
+                "name": "文山砚山机场",
+                "id": "67debe346d0e217f56ba10f1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.49527,
+                    41.639456
+                ]
+            },
+            "properties": {
+                "name": "桃仙国际机场",
+                "id": "67debe346d0e217f56ba10f2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.852752,
+                    27.906511
+                ]
+            },
+            "properties": {
+                "name": "龙湾国际机场",
+                "id": "67debe346d0e217f56ba10f3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.438368,
+                    30.79858
+                ]
+            },
+            "properties": {
+                "name": "五桥机场",
+                "id": "67debe346d0e217f56ba10f4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.055363,
+                    30.580865
+                ]
+            },
+            "properties": {
+                "name": "天柱山机场",
+                "id": "67debe346d0e217f56ba10f5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.808682,
+                    31.142267
+                ]
+            },
+            "properties": {
+                "name": "浦东国际机场",
+                "id": "67debe346d0e217f56ba10f6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.291492,
+                    41.261708
+                ]
+            },
+            "properties": {
+                "name": "红旗坡机场",
+                "id": "67debe346d0e217f56ba10f7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.531945,
+                    24.399057
+                ]
+            },
+            "properties": {
+                "name": "德宏芒市机场",
+                "id": "67debe346d0e217f56ba10f8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.621862,
+                    26.718728
+                ]
+            },
+            "properties": {
+                "name": "南岳机场",
+                "id": "67debe346d0e217f56ba10f9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.350503,
+                    38.54193
+                ]
+            },
+            "properties": {
+                "name": "金川机场",
+                "id": "67debe346d0e217f56ba10fa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.339775,
+                    31.19605
+                ]
+            },
+            "properties": {
+                "name": "虹桥国际机场",
+                "id": "67debe346d0e217f56ba10fb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.742471,
+                    26.85326
+                ]
+            },
+            "properties": {
+                "name": "吉安井冈山机场",
+                "id": "67debe346d0e217f56ba10fc"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.471075,
+                    36.479412
+                ]
+            },
+            "properties": {
+                "name": "南泥湾机场",
+                "id": "67debe346d0e217f56ba10fd"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.431893,
+                    52.91824
+                ]
+            },
+            "properties": {
+                "name": "漠河机场",
+                "id": "67debe346d0e217f56ba10fe"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.429172,
+                    39.510561
+                ]
+            },
+            "properties": {
+                "name": "大兴国际机场",
+                "id": "67debe346d0e217f56ba10ff"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.024433,
+                    39.541179
+                ]
+            },
+            "properties": {
+                "name": "喀什徕宁国际机场",
+                "id": "67debe346d0e217f56ba1100"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.593691,
+                    21.482133
+                ]
+            },
+            "properties": {
+                "name": "吴川机场",
+                "id": "67debe346d0e217f56ba1101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.839822,
+                    26.422263
+                ]
+            },
+            "properties": {
+                "name": "沙县机场",
+                "id": "67debe346d0e217f56ba1102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.951229,
+                    30.559807
+                ]
+            },
+            "properties": {
+                "name": "双流国际机场",
+                "id": "67debe346d0e217f56ba1103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.65765,
+                    29.722562
+                ]
+            },
+            "properties": {
+                "name": "江北国际机场",
+                "id": "67debe346d0e217f56ba1104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.414145,
+                    45.488849
+                ]
+            },
+            "properties": {
+                "name": "霍林河机场",
+                "id": "67debe346d0e217f56ba1105"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.251009,
+                    27.807488
+                ]
+            },
+            "properties": {
+                "name": "新舟机场",
+                "id": "67debe346d0e217f56ba1106"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.398797,
+                    24.204181
+                ]
+            },
+            "properties": {
+                "name": "白莲机场",
+                "id": "67debe346d0e217f56ba1107"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.968916,
+                    28.376753
+                ]
+            },
+            "properties": {
+                "name": "三清山机场",
+                "id": "67debe346d0e217f56ba1108"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.296152,
+                    32.149803
+                ]
+            },
+            "properties": {
+                "name": "刘集机场",
+                "id": "67debe346d0e217f56ba1109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    99.679936,
+                    27.789495
+                ]
+            },
+            "properties": {
+                "name": "香格里拉机场",
+                "id": "67debe346d0e217f56ba110a"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.16784,
+                    30.793302
+                ]
+            },
+            "properties": {
+                "name": "高坪机场",
+                "id": "67debe346d0e217f56ba110b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.920934,
+                    47.23525
+                ]
+            },
+            "properties": {
+                "name": "三家子机场",
+                "id": "67debe346d0e217f56ba110c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.616308,
+                    26.334424
+                ]
+            },
+            "properties": {
+                "name": "零陵机场",
+                "id": "67debe346d0e217f56ba110d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.338166,
+                    49.569694
+                ]
+            },
+            "properties": {
+                "name": "满洲里西郊国际机场",
+                "id": "67debe346d0e217f56ba110e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    131.196186,
+                    45.29766
+                ]
+            },
+            "properties": {
+                "name": "兴凯湖机场",
+                "id": "67debe346d0e217f56ba110f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    134.371892,
+                    48.201219
+                ]
+            },
+            "properties": {
+                "name": "东极机场",
+                "id": "67debe346d0e217f56ba1110"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.393399,
+                    38.321759
+                ]
+            },
+            "properties": {
+                "name": "银川河东国际机场",
+                "id": "67debe346d0e217f56ba1111"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.037565,
+                    35.116273
+                ]
+            },
+            "properties": {
+                "name": "盐湖国际机场",
+                "id": "67debe346d0e217f56ba1112"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.089479,
+                    47.752192
+                ]
+            },
+            "properties": {
+                "name": "雪都机场",
+                "id": "67debe346d0e217f56ba1113"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.808156,
+                    22.636116
+                ]
+            },
+            "properties": {
+                "name": "宝安国际机场",
+                "id": "67debe346d0e217f56ba1114"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.148982,
+                    37.682469
+                ]
+            },
+            "properties": {
+                "name": "吕梁机场",
+                "id": "67debe346d0e217f56ba1115"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.004778,
+                    40.561607
+                ]
+            },
+            "properties": {
+                "name": "包头东河机场",
+                "id": "67debe346d0e217f56ba1116"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.854712,
+                    34.525946
+                ]
+            },
+            "properties": {
+                "name": "新郑国际机场",
+                "id": "67debe346d0e217f56ba1117"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.466363,
+                    29.821287
+                ]
+            },
+            "properties": {
+                "name": "栎社国际机场",
+                "id": "67debe346d0e217f56ba1118"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.875503,
+                    41.679739
+                ]
+            },
+            "properties": {
+                "name": "龟兹机场",
+                "id": "67debe346d0e217f56ba1119"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.241474,
+                    45.611938
+                ]
+            },
+            "properties": {
+                "name": "太平国际机场",
+                "id": "67debe346d0e217f56ba111a"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.911718,
+                    28.85825
+                ]
+            },
+            "properties": {
+                "name": "昌北国际机场",
+                "id": "67debe346d0e217f56ba111b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.901834,
+                    28.962985
+                ]
+            },
+            "properties": {
+                "name": "衢州机场",
+                "id": "67debe346d0e217f56ba111c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.794675,
+                    33.787749
+                ]
+            },
+            "properties": {
+                "name": "成县机场",
+                "id": "67debe346d0e217f56ba111d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.871181,
+                    31.731634
+                ]
+            },
+            "properties": {
+                "name": "禄口国际机场",
+                "id": "67debe346d0e217f56ba111e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.6455,
+                    26.801155
+                ]
+            },
+            "properties": {
+                "name": "武冈机场",
+                "id": "67debe346d0e217f56ba111f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.365085,
+                    29.932599
+                ]
+            },
+            "properties": {
+                "name": "普陀山机场",
+                "id": "67debe346d0e217f56ba1120"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.467385,
+                    19.942495
+                ]
+            },
+            "properties": {
+                "name": "美兰国际机场",
+                "id": "67debe346d0e217f56ba1121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.792981,
+                    37.50382
+                ]
+            },
+            "properties": {
+                "name": "胜利机场",
+                "id": "67debe346d0e217f56ba1122"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.956853,
+                    45.467354
+                ]
+            },
+            "properties": {
+                "name": "克拉玛依机场",
+                "id": "67debe346d0e217f56ba1123"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.307392,
+                    23.387375
+                ]
+            },
+            "properties": {
+                "name": "白云国际机场",
+                "id": "67debe346d0e217f56ba1124"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.041555,
+                    36.527142
+                ]
+            },
+            "properties": {
+                "name": "曹家堡机场",
+                "id": "67debe346d0e217f56ba1125"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.138043,
+                    41.618911
+                ]
+            },
+            "properties": {
+                "name": "梨城机场",
+                "id": "67debe346d0e217f56ba1126"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.7407,
+                    32.879193
+                ]
+            },
+            "properties": {
+                "name": "西关机场",
+                "id": "67debe346d0e217f56ba1127"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.477022,
+                    27.263751
+                ]
+            },
+            "properties": {
+                "name": "飞雄机场",
+                "id": "67debe346d0e217f56ba1128"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.1856,
+                    34.410368
+                ]
+            },
+            "properties": {
+                "name": "花果山机场",
+                "id": "67debe346d0e217f56ba1129"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    81.333342,
+                    43.957238
+                ]
+            },
+            "properties": {
+                "name": "伊宁机场",
+                "id": "67debe346d0e217f56ba112a"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.481092,
+                    43.917012
+                ]
+            },
+            "properties": {
+                "name": "地窝堡国际机场",
+                "id": "67debe346d0e217f56ba112b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.472396,
+                    46.846312
+                ]
+            },
+            "properties": {
+                "name": "东郊机场",
+                "id": "67debe346d0e217f56ba112c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.187631,
+                    22.601718
+                ]
+            },
+            "properties": {
+                "name": "吴圩国际机场",
+                "id": "67debe346d0e217f56ba112d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.69089,
+                    30.737949
+                ]
+            },
+            "properties": {
+                "name": "九华山机场",
+                "id": "67debe346d0e217f56ba112e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.784632,
+                    25.848292
+                ]
+            },
+            "properties": {
+                "name": "黄金机场",
+                "id": "67debe346d0e217f56ba112f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.219634,
+                    30.772048
+                ]
+            },
+            "properties": {
+                "name": "天河国际机场",
+                "id": "67debe346d0e217f56ba1130"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.485547,
+                    24.93537
+                ]
+            },
+            "properties": {
+                "name": "驼峰机场",
+                "id": "67debe346d0e217f56ba1131"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.542585,
+                    38.964154
+                ]
+            },
+            "properties": {
+                "name": "周水子国际机场",
+                "id": "67debe346d0e217f56ba1132"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.235474,
+                    28.179749
+                ]
+            },
+            "properties": {
+                "name": "黄花国际机场",
+                "id": "67debe346d0e217f56ba1133"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.093925,
+                    36.360083
+                ]
+            },
+            "properties": {
+                "name": "青岛胶东国际机场",
+                "id": "67debe346d0e217f56ba1134"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.414693,
+                    18.303395
+                ]
+            },
+            "properties": {
+                "name": "凤凰国际机场",
+                "id": "67debe346d0e217f56ba1135"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.639835,
+                    37.74582
+                ]
+            },
+            "properties": {
+                "name": "武宿国际机场",
+                "id": "67debe346d0e217f56ba1136"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    132.6662,
+                    47.11072
+                ]
+            },
+            "properties": {
+                "name": "建三江机场",
+                "id": "67debe346d0e217f56ba1137"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    129.024026,
+                    47.754447
+                ]
+            },
+            "properties": {
+                "name": "林都机场",
+                "id": "67debe346d0e217f56ba1138"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.24646,
+                    26.671508
+                ]
+            },
+            "properties": {
+                "name": "三义机场",
+                "id": "67debe346d0e217f56ba1139"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.982198,
+                    32.069558
+                ]
+            },
+            "properties": {
+                "name": "兴东国际机场",
+                "id": "67debe346d0e217f56ba113a"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    125.741792,
+                    42.050641
+                ]
+            },
+            "properties": {
+                "name": "三源浦机场",
+                "id": "67debe346d0e217f56ba113b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.005081,
+                    27.69919
+                ]
+            },
+            "properties": {
+                "name": "武夷山机场",
+                "id": "67debe346d0e217f56ba113c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.110848,
+                    30.549176
+                ]
+            },
+            "properties": {
+                "name": "邦达机场",
+                "id": "67debe346d0e217f56ba113d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.645773,
+                    36.133582
+                ]
+            },
+            "properties": {
+                "name": "尧都机场",
+                "id": "67debe346d0e217f56ba113e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.710204,
+                    27.442255
+                ]
+            },
+            "properties": {
+                "name": "芷江机场",
+                "id": "67debe346d0e217f56ba113f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    129.576814,
+                    44.529501
+                ]
+            },
+            "properties": {
+                "name": "海浪机场",
+                "id": "67debe346d0e217f56ba1140"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.434011,
+                    31.49888
+                ]
+            },
+            "properties": {
+                "name": "苏南硕放国际机场",
+                "id": "67debe346d0e217f56ba1141"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.311479,
+                    27.798622
+                ]
+            },
+            "properties": {
+                "name": "明月山机场",
+                "id": "67debe346d0e217f56ba1142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    129.458201,
+                    42.88448
+                ]
+            },
+            "properties": {
+                "name": "朝阳川机场",
+                "id": "67debe346d0e217f56ba1143"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.878919,
+                    32.754037
+                ]
+            },
+            "properties": {
+                "name": "安康富强机场",
+                "id": "67debe346d0e217f56ba1144"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.966245,
+                    43.914723
+                ]
+            },
+            "properties": {
+                "name": "锡林浩特机场",
+                "id": "67debe346d0e217f56ba1145"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.510049,
+                    23.547445
+                ]
+            },
+            "properties": {
+                "name": "揭阳潮汕机场",
+                "id": "67debe346d0e217f56ba1146"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.38078,
+                    22.007696
+                ]
+            },
+            "properties": {
+                "name": "金湾机场",
+                "id": "67debe346d0e217f56ba1147"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.764783,
+                    21.972406
+                ]
+            },
+            "properties": {
+                "name": "嘎洒国际机场",
+                "id": "67debe346d0e217f56ba1148"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.286916,
+                    29.309688
+                ]
+            },
+            "properties": {
+                "name": "三荷机场",
+                "id": "67debe346d0e217f56ba1149"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.007719,
+                    46.200075
+                ]
+            },
+            "properties": {
+                "name": "乌兰浩特机场",
+                "id": "67debe346d0e217f56ba114a"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.158269,
+                    37.572982
+                ]
+            },
+            "properties": {
+                "name": "沙坡头机场",
+                "id": "67debe346d0e217f56ba114b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.235047,
+                    37.18592
+                ]
+            },
+            "properties": {
+                "name": "大水泊机场",
+                "id": "67debe346d0e217f56ba114c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.432413,
+                    30.234708
+                ]
+            },
+            "properties": {
+                "name": "萧山国际机场",
+                "id": "67debe346d0e217f56ba114d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.528071,
+                    28.853245
+                ]
+            },
+            "properties": {
+                "name": "五粮液机场",
+                "id": "67debe346d0e217f56ba114e"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.964393,
+                    23.718216
+                ]
+            },
+            "properties": {
+                "name": "百色机场",
+                "id": "67debe346d0e217f56ba114f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.485972,
+                    30.551313
+                ]
+            },
+            "properties": {
+                "name": "三峡机场",
+                "id": "67debe346d0e217f56ba1150"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.744703,
+                    40.927155
+                ]
+            },
+            "properties": {
+                "name": "天吉泰机场",
+                "id": "67debe346d0e217f56ba1151"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    125.694951,
+                    43.997004
+                ]
+            },
+            "properties": {
+                "name": "龙嘉国际机场",
+                "id": "67debe346d0e217f56ba1152"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    124.124514,
+                    50.374166
+                ]
+            },
+            "properties": {
+                "name": "大兴安岭鄂伦春机场",
+                "id": "67debe346d0e217f56ba1153"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.429366,
+                    24.972725
+                ]
+            },
+            "properties": {
+                "name": "韶关丹霞机场",
+                "id": "67debe346d0e217f56ba1154"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.207452,
+                    33.131633
+                ]
+            },
+            "properties": {
+                "name": "城固机场",
+                "id": "67debe346d0e217f56ba1155"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.462485,
+                    19.139871
+                ]
+            },
+            "properties": {
+                "name": "博鳌机场",
+                "id": "67debe346d0e217f56ba1156"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.810226,
+                    40.163803
+                ]
+            },
+            "properties": {
+                "name": "敦煌机场",
+                "id": "67debe346d0e217f56ba1157"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.989481,
+                    37.659253
+                ]
+            },
+            "properties": {
+                "name": "蓬莱国际机场",
+                "id": "67debe346d0e217f56ba1158"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.935835,
+                    25.099565
+                ]
+            },
+            "properties": {
+                "name": "长水国际机场",
+                "id": "67debe346d0e217f56ba1159"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.602545,
+                    40.080213
+                ]
+            },
+            "properties": {
+                "name": "首都国际机场",
+                "id": "67debe346d0e217f56ba115a"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.104324,
+                    23.39945
+                ]
+            },
+            "properties": {
+                "name": "西江机场",
+                "id": "67debe346d0e217f56ba115b"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.448105,
+                    29.101444
+                ]
+            },
+            "properties": {
+                "name": "荷花机场",
+                "id": "67debe346d0e217f56ba115c"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.526568,
+                    28.492384
+                ]
+            },
+            "properties": {
+                "name": "边城机场",
+                "id": "67debe346d0e217f56ba115d"
+            }
+        }
+    ]
+}

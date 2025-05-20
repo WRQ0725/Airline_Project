@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default {
 	// 用户token
-	_token: "AISRIz4LK9eTxbnJRVOkPl8OSacPRxv2",
+	_token: "DS4dGbczubyhkID8XEScXMuanchuBAhH",
 	// 获取当前定位
 	getLoacation() {
 		return axios.get("baidu/location/ip", {
@@ -46,23 +46,45 @@ export default {
 		let resList = [];
 		for (let item of list) {
 			let { name, x, y, originX, originY } = item;
-			let { data: info } = await axios.get("baidu/direction/v2/driving", {
-				params: {
-					ak: this._token,
-					origin: `${originY},${originX}`,
-					destination: `${y},${x}`
+			try {
+				let response = await axios.get("/baidu/direction/v2/driving", {
+					params: {
+						ak: this._token,
+						origin: `${originY},${originX}`,
+						destination: `${y},${x}`
+					}
+				});
+
+				// 检查接口返回的状态码
+				if (response.status !== 200) {
+					console.error(`请求失败，状态码：${response.status}`);
+					continue; // 跳过当前项
 				}
-			});
-			resList.push({
-				name,
-				route: info.result.routes[0]
-			});
+
+				let info = response.data;
+
+				// 检查返回数据的结构
+				if (!info || !info.result || !info.result.routes || info.result.routes.length === 0) {
+					console.error(`数据结构不符合预期，返回数据：${JSON.stringify(info)}`);
+					continue; // 跳过当前项
+				}
+
+				// 将结果添加到返回列表中
+				resList.push({
+					name,
+					route: info.result.routes[0]
+				});
+			} catch (error) {
+				console.error(`请求失败，错误信息：${error.message}`);
+				// 可以选择跳过当前项或者记录错误信息
+			}
 		}
+		console.log("路线信息", resList);
 		return resList;
 	},
 	// 地点检索
 	async locationSearch(name) {
-		const { data: result } = await axios.get("baidu/place/v2/search", {
+		const { data: result } = await axios.get("/baidu/place/v2/search", {
 			params: {
 				query: name,
 				region: "全国",

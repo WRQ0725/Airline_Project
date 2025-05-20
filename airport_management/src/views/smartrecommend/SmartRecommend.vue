@@ -260,6 +260,7 @@ export default {
 			const date = TimeTool.getWeekNumb(
 				this.queryBasic.date.toString().substr(0, 3)
 			)
+			console.log('请求参数：',this.airportList[0],this.airportList[1],date,this.queryBasic.time)
 			const { data: result } = await this.$http.get(
 				"api/airlines/findbyrecommend",
 				{
@@ -272,6 +273,7 @@ export default {
 				}
 			)
 			if (result.meta.status == 1) {
+				console.log('成功推荐',result.data)
 				return result.data
 			} else {
 				return this.$message({ type: "error", message: result.meta.msg })

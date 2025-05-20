@@ -9,9 +9,6 @@
 						@queryNumChanged="queryNumChanged"
 					></airports-list>
 				</el-tab-pane>
-				<el-tab-pane label="按省份查询">
-					<map-container></map-container>
-				</el-tab-pane>
 				<el-tab-pane label="按名称查询">
 					<name-query-container></name-query-container>
 				</el-tab-pane>
@@ -48,6 +45,8 @@ export default {
 			})
 			if (result.meta.status == 1) {
 				this.hotAirportList = result.data
+				console.log('成功获取热门机场列表')
+				console.log(this.hotAirportList)
 			} else {
 				this.$message({ type: "error", message: result.meta.msg })
 			}

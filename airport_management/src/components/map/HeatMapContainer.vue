@@ -13,84 +13,98 @@ import echarts from "echarts"
 
 import JsonToLayer from "../../utils/JsonToLayer"
 
+const token = '7fe35faf9e6d4a2cee3eb08a3cb7fdb3'
+const VEC_C = "http://{s}.tianditu.com/vec_c/wmts?layer=vec&style=default&tilematrixset=c&Service=WMTS&Request=GetTile&Version=1.0.0&Format=tiles&TileMatrix={z}&TileCol={x}&TileRow={y}&tk="
 export default {
 	name: "HeatMapContainer",
 	data() {
 		return {
-			view: {},
+			map: {},
 			myChart: {},
 			features: [],
 			radasList: [],
 			maxNum: 0,
 			loading: false,
+			heatmapLayer: null,
 		}
 	},
 	methods: {
-		// 初始化ArcGIS地图
+		// 初始化Leaflet地图
 		loadMap() {
-			loadModules(["esri/views/MapView", "esri/Map"], { css: true }).then(
-				([MapView, Map]) => {
-					const map = new Map({
-						basemap: "osm",
-					})
-					const view = new MapView({
-						container: "heatmap-container",
-						map: map,
-						center: [106.75003910896959, 33.405550534701746],
-						zoom: 3,
-					})
-					this.view = view // vue托管
-				}
-			)
+			if(!this.map) {
+				return false;
+			}
+			// 加载天地图服务图层
+			// 创建地图实例
+			this.map = L.map('heatmap-container', {
+				minZoom: 2,
+				maxZoom: 17,
+				center: [34.33213, 109.00945],
+				zoomSnap: 0.1,
+				zoom: 2,
+				zoomControl: false,
+				attributionControl: false,
+				crs: L.CRS.EPSG4326,
+			});
+
+			// 添加tianditu底图
+
+			L.tileLayer(VEC_C + token, {
+				zoomOffset: 1,
+				subdomains: ["t0", "t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+				opacity: 0.8,
+			}).addTo(this.map);
+
 		},
 		// 数据改变更新热力图
 		updateHeatMap() {
-			if (this.cfeatures == []) {
-				return false
+			if (this.features.length === 0) {
+				return false;
 			}
-			this.loading = true
-			loadModules(
-				[
-					"esri/layers/FeatureLayer",
-					"esri/smartMapping/renderers/heatmap",
-					"esri/Color",
-				],
-				{ css: true }
-			).then(async ([FeatureLayer, heatmapRendererCreator, Color]) => {
-				this.view.map.layers.removeAll()
-				let featureLayer = new FeatureLayer({
-					id: "heatmaplayer",
-					source: this.features,
-					labelsVisible: false,
-					objectIdField: "ObjectID",
-					outFields: ["ObjectID"],
-				})
-				let heatmapParams = {
-					type: "heatmap",
-					layer: featureLayer,
-					view: this.view,
-					blurRadius: 4,
-					heatmapScheme: {
-						colors: [
-							new Color("rgba(0, 255, 150, 0)"),
-							new Color("rgb(250, 250, 0)"),
-							new Color("rgb(250, 150, 0)"),
-							new Color("rgb(255, 50, 0)"),
-						],
-					},
+
+			this.loading = true;
+
+			// 如果已经存在热力图层，则移除
+			if (this.heatmapLayer) {
+				this.map.removeLayer(this.heatmapLayer);
+			}
+
+			// 准备热力图数据
+			const heatmapData = this.features.map(feature => [
+				feature.geometry.y,
+				feature.geometry.x,
+				feature.value || 0.2 // 如果没有 value，则默认为 1
+			]);
+
+			// 创建热力图层
+			this.heatmapLayer = L.heatLayer(heatmapData, {
+				radius: 12, // 热力图的模糊半径
+				blur: 15, // 热力图的模糊程度
+				maxZoom: 1, // 热力图在最大缩放级别时的显示效果
+				gradient: {
+					0.4: 'rgba(0, 255, 150, 0)',
+					0.6: 'rgb(250, 250, 0)',
+					0.8: 'rgb(250, 150, 0)',
+					1.0: 'rgb(255, 50, 0)'
 				}
-				const res = await heatmapRendererCreator.createRenderer(heatmapParams)
-				featureLayer.renderer = res.renderer
-				this.view.map.layers.add(featureLayer)
-				this.loading = false
-				this.$emit("heatmapLoaded")
-			})
+			});
+
+			// 将热力图层添加到地图上
+			this.heatmapLayer.addTo(this.map);
+
+			this.loading = false;
+			this.$emit('heatmapLoaded');
 		},
 		// 生成雷达图
 		drawChart() {
 			const option = {
 				title: {
 					text: "高通勤频率机场",
+					left:'4%',
+					textStyle: {
+						fontSize: 15, // 设置标题字体大小
+						fontWeight:5,
+					}
 				},
 				legend: {
 					data: ["通勤频率"],
@@ -177,6 +191,7 @@ export default {
 		this.loadMap()
 		if (this.cfeatures.length !== 0) {
 			this.features = JsonToLayer.jsonToFeatureSet(this.cfeatures)
+			console.log(this.features)
 			this.updateHeatMap()
 		}
 		this._statistic(this.cfeatures)
@@ -210,7 +225,7 @@ export default {
 	width: 100%;
 }
 #chart-container {
-	margin-top: 30px;
+	margin-top: 100px;
 	height: 300px;
 	width: 100%;
 }

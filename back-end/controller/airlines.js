@@ -247,7 +247,8 @@ exports.findByRecommend = async (req, res, next) => {
 		startAirport: from,
 		endAirport: to
 	};
-	query["date." + date] = 1;
+	console.log("query", query);
+	query["date." + date] = true;
 	if (time == "beforenoon") query.startTime = { $lt: "12:00" };
 	else if (time == "afternoon") query.startTime = { $gt: "12:00" };
 	const result = await airlinesModel.findByRecommend(query);

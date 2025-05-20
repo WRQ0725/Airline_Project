@@ -286,7 +286,8 @@ def main():
             "date": week_plan,  # 周计划
             "ontimeRate": row["onTimeRate"],  # 准时率
             "from": depart_city_name,  # 出发地
-            "to": arrive_city_name  # 到达地
+            "to": arrive_city_name,  # 到达地
+            "price":row["price"]  # 票价
         }
         airlines_data.append(airline)
 

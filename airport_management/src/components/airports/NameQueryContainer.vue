@@ -141,6 +141,11 @@ export default {
 							map: dialogMap,
 							center: [x, y],
 							zoom: 13,
+							constraints:{
+								minZoom: 10,
+
+								maxZoom: 16,
+							}
 						})
 						this.dialogView = dialogView
 					}

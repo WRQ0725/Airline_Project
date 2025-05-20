@@ -47,7 +47,7 @@ export default {
 			// 创建Map实例
 			var map = new BMap.Map("map")
 			this.map = map
-      const _vue = this
+      		const _vue = this
 			// 获取定位
 			if (navigator.geolocation) {
 				navigator.geolocation.getCurrentPosition(
@@ -59,7 +59,7 @@ export default {
 						const airportsLocal = new BMap.LocalSearch(map, {
 							onSearchComplete(airports) {
 								// 获取机场回调
-								_vue.localList = airports.Br
+								_vue.localList = airports.ok
 							},
 						})
 						airportsLocal.searchNearby("机场", point)
@@ -79,6 +79,7 @@ export default {
 		},
     // 根据搜索地点获取附近机场
 		getAirports(searchText) {
+			console.log(searchText)
 			if (this.map == "")
 				// 地图未加载
 				return this.$message({
@@ -101,13 +102,16 @@ export default {
 				onSearchComplete(results) {
 					// 查询回调函数
 					if (local.getStatus() == BMAP_STATUS_SUCCESS) {
+						console.log("查询成功")
+						console.log(results)
 						// 判断状态是否正确
-						const point = results.Br[0]
+						const point = results.ok[0]
 						// 搜索查询的第一个结果附近的机场
 						const airportsLocal = new BMap.LocalSearch(_map, {
 							onSearchComplete(airports) {
 								// 获取机场回调
-								_vue.localList = airports.Br
+								console.log(airports)
+								_vue.localList = airports.ok[0, 1, 2, 3, 4, 5]
 							},
 						})
 						airportsLocal.searchNearby("机场", point)

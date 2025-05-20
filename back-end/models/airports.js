@@ -2,9 +2,17 @@ const { Airports } = require("../utils/db");
 
 // 从数据库获取热门机场
 exports.findHot = num => {
-	return Airports.find({ hot: { $lte: parseInt(num) } });
-};
+	// 确保 num 是一个有效的数字
+	const parsedNum = parseInt(num);
+	if (isNaN(parsedNum) || parsedNum <= 0) {
+		throw new Error("Invalid input: num must be a positive integer");
+	}
 
+	// 查询 hot 字段最大的 num 条数据
+	return Airports.find({})
+		.sort({ hot: -1 }) // 按 hot 字段升序排序
+		.limit(parsedNum); // 限制返回的条数
+  };
 // 从数据库获取所有机场列表
 exports.findAll = () => {
 	return Airports.find();

@@ -5,39 +5,37 @@
 				<div class="login_box" id="signin">
 					<!-- 遮罩 -->
 					<div class="login_blur"></div>
+					<div class="Title">
+						<span>"天 枢 智 策"</span>
+						<br />
+						<span>智 能 民 航 系 统
+						</span>
+					</div>
 					<div class="login_content">
 						<div class="login_title">
 							<span>欢迎登录</span>
 						</div>
 						<LoginForm :c-is-login="isSignin"></LoginForm>
-						<el-button
-							icon="el-icon-right"
-							size="mini"
-							round
-							plain
-							class="switch_btn"
-							@click="switchFunc"
-							>注册</el-button
-						>
+						<el-button icon="el-icon-right" size="mini" round plain class="switch_btn"
+							@click="switchFunc">注册</el-button>
 					</div>
 				</div>
 				<div class="login_box" id="signup">
 					<!-- 遮罩 -->
 					<div class="login_blur"></div>
+					<div class="Title">
+						<span>"天 枢 智 策"</span>
+						<br />
+						<span>智 能 民 航 系 统
+						</span>
+					</div>
 					<div class="login_content">
 						<div class="login_title">
 							<span>注册用户</span>
 						</div>
 						<LoginForm :c-is-login="isSignin"></LoginForm>
-						<el-button
-							icon="el-icon-right"
-							size="mini"
-							round
-							plain
-							class="switch_btn"
-							@click="switchFunc"
-							>登录</el-button
-						>
+						<el-button icon="el-icon-right" size="mini" round plain class="switch_btn"
+							@click="switchFunc">登录</el-button>
 					</div>
 				</div>
 			</div>
@@ -72,7 +70,7 @@ export default {
 #login_container {
 	width: 100%;
 	height: 100%;
-	background: url("../assets/images/login_background.png") no-repeat fixed;
+	background: url("../assets/images/login_back.png") no-repeat fixed;
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -120,11 +118,11 @@ label {
 
 	&#signin {
 		.login_blur {
-			background: url("../assets/images/login_blur.jpg");
 			background-size: 100%;
+			background: url("../assets/images/L.jpg");
 		}
 		.login_content {
-			background: @signinBack;
+			background: rgba(220, 218, 73, 0.15);
 		}
 		.login_title {
 			color: @signinColor;
@@ -143,11 +141,11 @@ label {
 		transform: rotateX(180deg);
 
 		.login_blur {
-			background: url("../assets/images/signup_blur.jpg");
+			background: url("../assets/images/bur.jpg");
 			background-size: 100%;
 		}
 		.login_content {
-			background: @signupBack;
+			background: rgba(45, 92, 128, 0.15);
 		}
 		.login_title {
 			color: @signupColor;
@@ -216,5 +214,24 @@ label {
 	margin-top: 15px;
 	margin-right: 20px;
 	margin-left: auto;
+}
+.Title{
+	position: absolute;
+		left: 0;
+		height: 100%;
+		width: 60%;
+		display: flex;
+		align-items: center;
+		/* 垂直居中 */
+		justify-content: center;
+		/* 水平居中 */
+		flex-direction: column;
+		font-size: 3em;
+		font-weight: 800;
+		color: #fefefe;
+		text-shadow: 0px 1px 0px #c0c0c0, 0px 2px 0px #b0b0b0,
+			0px 3px 0px #a0a0a0, 0px 4px 0px #909090,
+			0px 5px 10px rgba(0, 0, 0, 0.9);
+		user-select: none;
 }
 </style>

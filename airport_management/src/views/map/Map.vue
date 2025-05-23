@@ -66,8 +66,8 @@ export default {
 		return {
 			data_geo: {}, // 格式化后的机场列表
 			renderAirlinesList: [], // 渲染航班列表
-      		nowWeekday: 1, // 当前星期
-			nowTime: "09:09", // 当前时间，例：“09:09”
+      		nowWeekday: 0, // 当前星期
+			nowTime: "14:09", // 当前时间，例：“09:09”      改这里
 			total: 0, // 数据总量
 			page: 1, // 当前页数
 			viewer: {},

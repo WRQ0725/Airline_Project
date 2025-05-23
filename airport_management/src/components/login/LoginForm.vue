@@ -1,35 +1,23 @@
 <template>
-	<el-form
-		ref="loginForm"
-		:model="loginForm"
-		:rules="loginRule"
-		class="login_form"
-		:class="{ signin: cIsLogin, signup: !cIsLogin }"
-	>
+	<el-form ref="loginForm" :model="loginForm" :rules="loginRule" class="login_form"
+		:class="{ signin: cIsLogin, signup: !cIsLogin }">
+		<el-tabs v-model="User_class" class="tab_container">
+			<el-tab-pane label="旅客系统" name="traveller"></el-tab-pane>
+			<el-tab-pane label="管理系统" name="management"></el-tab-pane>
+		</el-tabs>
 		<el-form-item class="input_container" prop="username">
 			<p>用户名</p>
-			<input
-				placeholder="请输入用户名"
-				v-model="loginForm.username"
-				@keydown.enter="cIsLogin ? signinBtnClick() : signupBtnClick()"
-			/>
+			<input placeholder="请输入用户名" v-model="loginForm.username"
+				@keydown.enter="cIsLogin ? signinBtnClick() : signupBtnClick()" />
 			<el-input v-model="loginForm.username" v-show="false"></el-input>
 		</el-form-item>
 		<el-form-item class="input_container" prop="password">
 			<p>密码</p>
-			<input
-				placeholder="请输入密码"
-				type="password"
-				v-model="loginForm.password"
-				@keydown.enter="cIsLogin ? signinBtnClick() : signupBtnClick()"
-			/>
+			<input placeholder="请输入密码" type="password" v-model="loginForm.password"
+				@keydown.enter="cIsLogin ? signinBtnClick() : signupBtnClick()" />
 			<el-input v-model="loginForm.password" v-show="false"></el-input>
 		</el-form-item>
-		<el-button
-			class="login_btn signin_btn"
-			v-if="cIsLogin"
-			@click="signinBtnClick"
-		>
+		<el-button class="login_btn signin_btn" v-if="cIsLogin" @click="signinBtnClick">
 			登 录
 		</el-button>
 		<el-button class="login_btn signup_btn" v-else @click="signupBtnClick">
@@ -54,6 +42,7 @@ export default {
 					{ min: 5, max: 10, message: "长度在 5 到 10 个字符" },
 				],
 			},
+			User_class: "traveller",
 		}
 	},
 	methods: {
@@ -62,8 +51,9 @@ export default {
 			// 验证表单数据合法性
 			this.$refs["loginForm"].validate(async (valid) => {
 				if (valid) {
+					console.log("loginForm", this.loginForm)
 					const { username, password } = this.loginForm
-					await this._signinReq(username, password) // 调用登录函数
+					await this._signinReq(username, password, this.User_class) // 调用登录函数
 				}
 			})
 		},
@@ -78,7 +68,7 @@ export default {
 					})
 					if (result.meta.status == 1) {
 						// 注册成功 -> 应当进行登录
-						await this._signinReq(username, password) // 调用登录函数
+						await this._signinReq(username, password, this.User_class) // 调用登录函数
 					} else {
 						// 注册失败
 						this.$message({ type: "error", message: result.meta.msg })
@@ -87,24 +77,30 @@ export default {
 			})
 		},
 		// 处理登录请求的内部函数
-		_signinReq(username, password) {
-			return new Promise(async (resolve, reject) => {
-				const result = await this.$http.post("/api/users/signin", {
-					username,
-					password,
+		_signinReq(username, password, User_class) {
+			console.log("username", username, "password", password, "User_class", User_class)
+			if (User_class=="traveller"){
+				return new Promise(async (resolve, reject) => {
+					const result = await this.$http.post("/api/users/signin", {
+						username,
+						password,
+					})
+					if (result.data.meta.status == 1) {
+						// 获得成功结果
+						const token = result.headers["x-access-token"] // 获取token
+						window.sessionStorage.setItem("token", token) // 将token存储在session中
+						this.$message({ type: "success", message: "登录成功" })
+						this.$router.push("/home") // 跳转至home页
+						resolve()
+					} else {
+						this.$message({ type: "error", message: result.data.meta.msg })
+						reject()
+					}
 				})
-				if (result.data.meta.status == 1) {
-					// 获得成功结果
-					const token = result.headers["x-access-token"] // 获取token
-					window.sessionStorage.setItem("token", token) // 将token存储在session中
-					this.$message({ type: "success", message: "登录成功" })
-					this.$router.push("/home") // 跳转至home页
-					resolve()
-				} else {
-					this.$message({ type: "error", message: result.data.meta.msg })
-					reject()
-				}
-			})
+		}
+		else{
+				window.location.href = "http://localhost:8081/";
+		}
 		},
 	},
 	props: {
@@ -124,7 +120,9 @@ export default {
 
 	&.signin {
 		color: @signinColor;
-
+		::v-deep .el-tabs__item{
+			color: @signinColor !important;
+		}
 		input {
 			border-bottom: 0.1rem solid @signinColor;
 		}
@@ -135,7 +133,9 @@ export default {
 
 	&.signup {
 		color: @signupColor;
-
+		::v-deep .el-tabs__item {
+				color: @signupColor !important;
+			}
 		input {
 			border-bottom: 0.1rem solid @signupColor;
 			color: whitesmoke;

@@ -18,9 +18,9 @@
           <div id="privacy_text_top">由xxx队提供的中国民航大语言模型已唤醒，可以随时开始聊天啦</div>
           <div style="padding: 0 0 5px 0; display: flex; justify-content: center;">
             <el-radio-group v-model="radio" size="small">
-              <el-radio-button label="文字模式"></el-radio-button>
-              <el-radio-button label="图表模式"></el-radio-button>
-              <el-radio-button label="图文报表模式"></el-radio-button>
+              <el-radio-button label="AI助手模式"></el-radio-button>
+              <el-radio-button label="智能调度模式"></el-radio-button>
+              <el-radio-button label="智能推荐模式"></el-radio-button>
             </el-radio-group>
           </div>
           <div class="talk_panel">
@@ -101,7 +101,7 @@
 <script>
 
 import MarkdownIt from 'markdown-it';
-
+import axios from "axios";
 export default {
   data() {
     return {
@@ -212,24 +212,50 @@ export default {
       //根据用户输入构建请求
       if (this.radio =='智能推荐模式'){
         var processParams = {
-          "question": this.voiceResultTemp,
-          "fileName": this.$store.state.global.uploadedFileName,
+          "model": "deepseek-r1-distill-qwen-7b",
+            "messages": [
+              { "role": "system", "content": "Always answer in rhymes.Speak chinese" },
+              { "role": "user", "content": this.voiceResultTemp }
+            ],
+              "temperature": 0.9,
+                "max_tokens": -1,
+                  "stream": false
         }
+        console.log("processParams", processParams)
+        // 发送 POST 请求
+        const response = await axios.post("/v1/chat/completions", processParams);
 
-        await this.request.post("/wpfgpt/postChat2", processParams).then((res) => {
-          if (res.code === "200") {
-            this.isImage = res.image
-            this.isReport = res.report
-            this.thumbnail = "http://" + serverIp + ":7070/wpfgpt/api/images/" + (res.time) + ".png"
-            this.masterImg = ["http://" + serverIp + ":7070/wpfgpt/api/images/" + (res.time) + ".png"]
-            this.docxFile = "http://" + serverIp + ":7070/wpfgpt/docx/" + processParams.fileName.replace(".csv", "") + "_" + (res.time) + ".docx";
-            console.log(res.msg)
-            this.generatedText = res.msg;
-          } else {
-            document.getElementById('loading').textContent = '抱歉，服务器异常，请重试';
-          }
-        });
-      }
+        // 打印完整的响应对象（调试用）
+        console.log("Response received:", response);
+
+        // 检查响应状态码
+        if (response.status === 200) {
+          console.log("Request successful. Processing response data...");
+
+          // this.isImage = response.data.image;
+          // this.isReport = response.data.report;
+          // this.thumbnail = `http://${serverIp}:7070/wpfgpt/api/images/${response.data.time}.png`;
+          // this.masterImg = [this.thumbnail];
+          // this.docxFile = `http://${serverIp}:7070/wpfgpt/docx/${processParams.fileName.replace(".csv", "")}_${response.data.time}.docx`;
+
+          // console.log("Generated thumbnail URL:", this.thumbnail);
+          // console.log("Generated master image URL:", this.masterImg);
+          // console.log("Generated DOCX file URL:", this.docxFile);
+
+          console.log("Generated text:", response.data.choices[0].message.content);
+          this.generatedText = response.data.choices[0].message.content
+          this.generatedText = this.generatedText.replace(/<think>[\s\S]*?<\/think>/g,'');
+          console.log("Generated text:", this.generatedText);
+          console.log("Generated text:", this.generatedText);
+        } else {
+          console.error("Server returned an error code:", response.data.code);
+          document.getElementById('loading').textContent = '抱歉，服务器异常，请重试';
+        }
+      } 
+
+
+
+
       else if (this.radio=='智能调度模式'){
       }
       else {
@@ -316,9 +342,6 @@ export default {
       }
     },
     mouseLeaveSwitch() {
-      this.$refs.minImg.addEventListener('mouseleave', () => {
-        this.$refs.minImg.style.backgroundImage = "url('../../../imgs/th_sleep.jpg')";
-      });
     }
   },
   mounted() {

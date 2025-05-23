@@ -25,6 +25,13 @@ module.exports = {
 				pathRewrite: {
 					"^/baidu": ""
 				}
+			},
+			'/v1': {
+				target: 'http://localhost:1234',
+				changeOrigin: true,
+				pathRewrite: {
+					'^/v1': '/v1'
+				}
 			}
 		}
 	},

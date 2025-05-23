@@ -47,14 +47,21 @@
 			</keep-alive>
 			<router-view v-if="$route.meta.noAlive"></router-view>
 		</el-main>
+		<!-- 每个页面都出现AI助手 -->
+		<AI_assistant />
 	</el-container>
 </template>
 
 <script>
+import AI_assistant from '../components/AI_assistant/AI_assistant.vue'
+
 export default {
 	name: "Home",
 	data() {
 		return {}
+	},
+	components: {
+		AI_assistant,
 	},
 	methods: {
     // 处理退出登录
